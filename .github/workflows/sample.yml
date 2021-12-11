@@ -7,9 +7,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  print-hello-world:
+  print-greetings:
     runs-on: ubuntu-latest
     steps:
       - name: execute echo command
         run: echo "Good Morning!"
+        run: echo "Good Afternoon!"
+        run: echo "Good Evening!"
 
